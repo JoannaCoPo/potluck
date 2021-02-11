@@ -17,13 +17,13 @@ class DishTest < Minitest::Test
   end
 
   def test_it_has_dishes_list
-    skip
+    # skip
     potluck = Potluck.new("7-13-18")
     assert_equal [], potluck.dishes
   end
 
   def test_it_can_add_dishes
-    skip
+    # skip
     couscous_salad = Dish.new("Couscous Salad", :appetizer)
     cocktail_meatballs = Dish.new("Cocktail Meatballs", :entre)
     potluck = Potluck.new("7-13-18")
